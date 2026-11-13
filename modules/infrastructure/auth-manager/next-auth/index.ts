@@ -7,6 +7,7 @@ export const authOptions: NextAuthConfig = {
         Google({
             clientId: process.env.AUTH_GOOGLE_ID,
             clientSecret: process.env.AUTH_GOOGLE_SECRET,
+             checks: ["state"],
         }),
         GitHub({
             clientId: process.env.AUTH_GITHUB_ID,
