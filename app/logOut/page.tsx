@@ -1,5 +1,5 @@
 'use client'
-import Navbar from 'components/Navbar'
+import Navbar from "@/components/Navbar";
 import { signOut } from 'next-auth/react'
 import Image from 'next/image'
 

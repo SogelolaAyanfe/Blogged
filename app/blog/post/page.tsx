@@ -1,6 +1,6 @@
 'use client'
 
-import TipTap from 'components/TiipTap'
+import TipTap from '@/components/TiipTap'
 import { trpc } from 'modules/infrastructure/api/trpc/client'
 import { CldUploadButton, CloudinaryUploadWidgetResults } from 'next-cloudinary'
 import Image from 'next/image'
