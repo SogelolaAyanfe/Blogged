@@ -15,7 +15,7 @@ export const Footer = () => {
                 <p className="flex gap-[4px]">
                     Built by
                     <Link
-                        href="https://ayanfeoluwasogelola.netlify.app/"
+                        href="https://ayanfeoluwasogelola.vercel.app/"
                         className="text-blue-400 hover:text-blue-200"
                     >
                         Ayanfeoluwa Sogelola
